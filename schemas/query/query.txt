@@ -1,0 +1,77 @@
+components {
+      __typename
+      ... on HeroSection {
+        _key
+        _type
+        title
+        subtitle
+      }
+      ... on AboutSection {
+        _key
+        _type
+        title
+        contentRaw
+        photo {
+          _key
+          _type
+          asset {
+            _id
+            _type
+            altText
+            url
+          }
+        }
+      }
+      ... on ExpertiseSection {
+        _key
+        _type
+        title
+        expertiseList {
+          _key
+          _type
+          expertiseTitle
+          expertiseContent
+        }
+      }
+      ... on ExperienceSection {
+        _key
+        _type
+        title
+        totalExperience {
+          _key
+          _type
+          companyName
+          yearOfJoining
+          yearOfResignation
+        }
+      }
+      ... on WorkSection {
+        _key
+        _type
+        workTitle
+        mywork {
+          _key
+          _type
+          workSample {
+            asset {
+              _id
+              _type
+              url
+              altText
+            }
+          }
+          workLiveUrl
+        }
+      }
+      ... on ContactSection {
+        _key
+        _type
+        title
+        contactForm {
+          _key
+          _type
+          controlLable
+          controlType
+        }
+      }
+    }
