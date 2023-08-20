@@ -1,4 +1,10 @@
-components {
+# Write your query or mutation here
+query GetDocumentById($id: ID!) {
+  PageBuilder(id: $id) {
+    _id
+    _type
+    pageTitle
+    components {
       __typename
       ... on HeroSection {
         _key
@@ -75,3 +81,5 @@ components {
         }
       }
     }
+  }
+}
