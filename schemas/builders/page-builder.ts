@@ -32,6 +32,11 @@ export const PageBuilder = {
           title: 'Expertise Section',
         }),
         defineArrayMember({
+          name: 'skillsSection',
+          type: 'skillsSection',
+          title: 'Skills Section',
+        }),
+        defineArrayMember({
           name: 'experienceSection',
           type: 'experienceSection',
           title: 'Experience Section',

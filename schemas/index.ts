@@ -21,6 +21,9 @@ import {WorkSection} from './components/work-section'
 
 // Builders
 import {PageBuilder} from './builders/page-builder'
+import {SkillsSection} from './components/skills-section'
+import {SkillsList} from './base/skills-list'
+import {Skill} from './base/skills'
 
 export const schemaTypes = [
   // base
@@ -35,6 +38,8 @@ export const schemaTypes = [
   WorkDetails,
   WorkList,
   FormControl,
+  SkillsList,
+  Skill,
 
   // components
   HeroSection,
@@ -43,6 +48,7 @@ export const schemaTypes = [
   ExperienceSection,
   ContactSection,
   WorkSection,
+  SkillsSection,
 
   // builders
   PageBuilder,
