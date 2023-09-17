@@ -9,6 +9,11 @@ export const WorkDetails = {
       title: 'Work Sample',
     },
     {
+      name: 'projectName',
+      type: 'string',
+      title: 'Project Name',
+    },
+    {
       name: 'workLiveUrl',
       type: 'url',
       title: 'Link your work',
