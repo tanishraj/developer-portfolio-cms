@@ -10,8 +10,8 @@ export const SocialMedia = {
     },
     {
       name: 'socialMediaIcon',
-      type: 'image',
-      title: 'Social Media Icon',
+      type: 'string',
+      title: 'Social Media Icon Name',
     },
   ],
 }
