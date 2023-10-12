@@ -13,5 +13,10 @@ export const Skill = {
       type: 'string',
       title: 'Skill Name',
     },
+    {
+      name: 'skillUrl',
+      type: 'url',
+      title: 'Skill URL',
+    },
   ],
 }
